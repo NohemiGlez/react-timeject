@@ -3,7 +3,7 @@ import React from 'react'
 const Project = ({ projects }) => {
       return (
         <div>
-          <center><h1>Contact List</h1></center>
+          <center><h1>Project List</h1></center>
           {projects.map((project) => (
             <div class="card">
               <div class="card-body">
